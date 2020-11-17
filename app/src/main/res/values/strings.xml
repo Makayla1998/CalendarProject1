@@ -20,6 +20,7 @@
     <string name="button_add">ADD</string>
     <string name="button_back">BACK</string>
 
-
+    <string name="user_name">User</string>
+    <string name="user_password">Password</string>
 
 </resources>

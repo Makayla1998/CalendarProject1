@@ -23,7 +23,6 @@
         <TextView
             android:padding="10dip"
             android:text="@string/calendar_name"/>
-        <!-- edit text here  -->
         <EditText
             android:id="@+id/input_name"/>
     </TableRow>
@@ -32,8 +31,6 @@
         android:layout_height="wrap_content">
         android:gravity="center"
         android:paddingTop="50dip"
-
-        <!-- buttons here  -->
         <Button
             android:onClick="add"
             android:text="@string/button_add"/>

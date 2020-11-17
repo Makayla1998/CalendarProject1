@@ -33,7 +33,6 @@ public class UpdateActivity extends AppCompatActivity {
     // Build a View dynamically with all the calendar
     public void updateView( )
     {
-
         // ArrayList for calendars
         ArrayList<Calendar> calendars = dbManager.selectAll();
 
@@ -140,8 +139,6 @@ public class UpdateActivity extends AppCompatActivity {
                 Toast.makeText(UpdateActivity.this, "Error found with input", Toast.LENGTH_SHORT).show();
 
             }
-            // This is assignment 4
-
         }
     }
 }
